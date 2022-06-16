@@ -42,7 +42,7 @@ body{
 .box {
     width: 50%;
     height: 80vh;
-    padding: 40px;
+    padding: 30px;
 }
 .left-box {
     display: flex;
