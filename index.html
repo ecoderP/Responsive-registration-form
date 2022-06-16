@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <!--Link to favicon-->
+    <link rel="shortcut icon" href="favicon-32x32.png?" type="image/x-icon">
+    <!--Link to google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--Link to css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"><img src="/img/bg-intro-desktop.png" alt=""></div>
+    <div class="container">
+        <div class="box left-box">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+        <div class="box right-box">
+            <div>
+                <p><strong>Try it free 7 days</strong> <span>then $20/mo. thereafter</span></p>
+            </div>
+            <form action="submit">
+                <input type="text" for="fname" placeholder="First Name" id="fname"><br>
+                <input type="text" for="lname" placeholder="Last Name" id="lname"><br>
+                <input type="email" for="email" placeholder="Email Address" id="email"><br>
+                <input type="password" for="pwd" placeholder="Password" id="pword"><br>
+                <button type="submit" id="submit">CLAIM YOUR FREE TRIAL</button>
+                <p class="t_n_c">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </form>
+            
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
