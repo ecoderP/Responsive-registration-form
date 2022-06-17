@@ -164,21 +164,27 @@ form p a {
     body {
         min-height: 100vh;
     }
-    .container {
-        width: 90%;
-        height: 100%;
-        margin: 30px 0;
-        flex-direction: column;
-    }
-    .box {
-        width: 100%;
-        text-align: center;
-        padding: 5px;
-    }
+    .overlay {
+        height: auto;
+    } 
     .overlay .desktop-img {
         display: none;
     }
     .overlay .mobile-img {
         display: inline-block;
+    }
+    .container {
+        width: 90%;
+        margin: 30px 0;
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        padding: 5px;
+    }
+    .right-box {
+        margin-top: 50px;
     }
 }
