@@ -160,6 +160,10 @@ form p a {
 
 /*Media query*/
 @media screen and (max-width: 500px) {
+    html,
+    body {
+        min-height: 100vh;
+    }
     .container {
         width: 90%;
         height: 100%;
